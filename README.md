@@ -72,5 +72,7 @@ I will keep adding to this list and make more of my work public over time.
 **Courses and books**
 - Nand2Tetris (Coursera) - from logic gates to a compiler and a custom CPU
 - [Pikuma](https://pikuma.com/) - emulators, compilers, physics engines
-- **Udemy** - targeted courses on embedded, C/C++, and operating systems
+- **Udemy** - targeted courses on embedded, C/C++, operating systems, Unity, systems engineering, MATLAB, control theory, and more
 - **Packt and Leanpub** - technical books and deep-dive engineering literature
+- **AI engineering** - courses on building applications with LLMs and agents
+- **Cybersecurity** - courses on security fundamentals and defensive practice
