@@ -1,51 +1,61 @@
-# Hi, I'm a Systems & Embedded Software Engineer 👋
+# Hi, I'm a Systems & Embedded Software Engineer
 
-I specialize in the space where hardware meets software. With a decade of experience in the automotive sector, my focus is on engineering robust, scalable embedded systems, from bare-metal microcontrollers to custom embedded Linux distributions. 
+I have more than ten years of experience connecting low-level electronics, mechanics, and modern software architecture. I build reliable, mission-critical systems from scratch, starting from first principles. My background is in automotive, but the same methods carry over to space, defense, and medical technology.
 
-I care deeply about underlying mechanisms: deterministic execution, strict memory management, and optimizing the build-to-debug pipeline. 
+I like reverse engineering, building proof-of-concepts, cutting costs, and finding the "needle in a haystack" in hard cross-domain bugs.
 
-### 🔭 What I'm Currently Working On
+## Current Role
 
-*   **Advanced Motor Control:** Implementing Field-Oriented Control (FOC) algorithms for PMSM, handling everything from continuous-to-discrete PI controller translation to Space Vector PWM (SVPWM) and dynamic voltage vector clamping in bare-metal C.
-*   **Hardware-in-the-Loop Digital Twins:** Bridging industrial automotive tools with game engines. I build custom digital twins of ECUs in **Unity**, integrated with **CANoe**, to simulate network behavior and physical responses in real-time.
-*   **Developer Tooling & Automation:** Continuously optimizing my C/C++ cross-platform workflow—currently refining a heavily customized, modular Emacs environment (LSP, Magit, PlantUML) for embedded development, and automating CI/CD pipelines.
+Embedded Software Engineer in automotive.
 
-### 🛠️ The Toolbox
+- Develop low-level drivers (MCAL and peripheral drivers) and application software for automotive ECUs.
+- Configure AUTOSAR BSW and MCAL modules with EB Tresos.
+- Debug on target at the chip and compiler level with hardware debuggers, oscilloscopes, logic analyzers, and CAN bus analysis.
 
-Instead of listing every technology, here is the core stack I rely on to ship production systems:
+## Skills
 
-*   **Languages:** C (Expert), C++, Rust, Python, C# (for Unity tooling), Bash
-*   **RTOS & Bare Metal:** FreeRTOS, Zephyr, AUTOSAR Classic/Adaptive
-*   **Embedded Linux:** Custom Kernel Modules, Yocto Project, Buildroot, U-Boot, Device Tree engineering
-*   **Build Architecture:** CMake, Make, West (Zephyr), Kconfig, Ninja
-*   **Connectivity:** CAN, SPI, I2C, UART, USB, Ethernet, BLE
-*   **Hardware Debugging:** Oscilloscopes, Logic Analyzers, JTAG/SWD interfaces, advanced memory analysis
+- **Languages:** C (professional), C++ and C# (working), Rust (foundational), Python, Bash, ARM / MIPS / AVR / RISC-V assembly
+- **RTOS and platforms:** FreeRTOS, Zephyr, Keil RTX (CMSIS-RTOS), AUTOSAR / OSEK, Linux and Yocto bring-up
+- **Embedded Linux:** Kernel modules, Yocto, Buildroot, U-Boot, Device Tree
+- **Architecture:** SOLID, MISRA C, system-level design, DSP, fixed-point math, speed optimization
+- **Control theory:** PID, MPC, bang-bang, sliding mode control and observers, Extended Kalman Filter
+- **Motor control:** BLDC, FOC, SVPWM, high-frequency injection, Park/Clarke transforms
+- **Interfaces:** CAN, SPI, I2C, UART, USB, Ethernet, BLE, custom protocols
+- **Build and tooling:** CMake, Make, Ninja, West, Kconfig, Docker, CI/CD
+- **Environment:** Terminal first on Linux, macOS, and Windows. Vim, Emacs, Bash.
 
-### 🧠 Engineering Philosophy & Core Strengths
+## How I Work
 
-*   **Low-Level Mastery:** Solid understanding of microprocessor architectures, programmer's models, and precise memory layout control via custom linker scripts.
-*   **Simulation First:** Before flashing hardware, I believe in proving the logic. Whether through digital twins, QEMU bare-metal labs, or custom network simulations, I build tools that catch edge cases early.
-*   **Build System Ownership:** A system is only as reliable as its build process. I architect scalable multi-platform builds and strictly manage dependencies to keep compilation deterministic and fast.
+- **Low level first:** Know the CPU architecture and control the memory layout with custom linker scripts.
+- **Simulate before flashing:** Digital twins, QEMU, and network simulations catch edge cases early.
+- **Own the build:** Reproducible multi-platform builds with tightly managed dependencies.
 
----
+## Side Projects and Tinkering
 
-### 📚 What I'm Reading & Studying
+Things I build outside work:
 
-I try to continuously experiment across the entire stack. Here are my go-to resources for deep dives:
+- **Motor control:** FOC for PMSM in bare-metal C: discrete PI controllers, SVPWM, and voltage vector clamping.
+- **Digital twins:** ECU digital twins in Unity, connected to CANoe, to simulate network behavior and physical responses in real time.
+- **Robotics:** ROS 2, kinematics (quaternions, transformation matrices, inverse kinematics), trajectories, and Newton-Euler / Lagrangian dynamics.
+- **Retro and systems:** Bare-metal PS1 programming in MIPS assembly and C, Android AOSP, compilers, interpreters, and game engines.
+- **Tooling:** A modular Emacs setup (LSP, Magit, PlantUML) for C/C++ embedded work.
 
-**Firmware & Architecture**
-*   [Interrupt by Memfault](https://interrupt.memfault.com/) – Practical posts on firmware, debugging, and observability.
-*   [Embedded Artistry](https://embeddedartistry.com/blog/) – Design patterns and quality build systems.
-*   [Beningo Embedded Group](https://www.beningo.com/) – Excellent insights on embedded software architecture, RTOS, and real-time best practices.
-*   [Jack Ganssle](https://www.ganssle.com/) – The gold standard for reliability and testing in embedded.
-*   [PyjamaBrah](https://pyjamabrah.com/) – Excellent courses on ARM architectures (Cortex‑M/A).
+I also experiment with AI engineering, DevOps, quantum computing, and cyber security.
 
-**Linux Kernel & Systems**
-*   [Bootlin Blog & Training](https://bootlin.com/blog/) – Deep dives into Linux kernel, BSPs, and toolchains.
-*   [LWN.net](https://lwn.net/) – In‑depth Linux kernel coverage.
+## Reading and Learning
 
-**Courses, Books & Fundamentals**
-*   **Nand2Tetris (Coursera)** – From logic gates to compilers, culminating in building a game on a custom CPU.
-*   [Pikuma](https://pikuma.com/) – Reverse engineering consoles, writing emulators, compilers, and physics engines.
-*   **Udemy** – My go-to for targeted courses across embedded, C/C++, and operating systems.
-*   **Packt & Leanpub** – My primary libraries for technical books and deep-dive engineering literature.
+**Firmware and architecture**
+- [Interrupt by Memfault](https://interrupt.memfault.com/) - firmware, debugging, observability
+- [Embedded Artistry](https://embeddedartistry.com/blog/) - design patterns and build systems
+- [Beningo Embedded Group](https://www.beningo.com/) - embedded architecture and RTOS
+- [Jack Ganssle](https://www.ganssle.com/) - reliability and testing
+- [PyjamaBrah](https://pyjamabrah.com/) - ARM Cortex-M/A courses
+
+**Linux kernel and systems**
+- [Bootlin](https://bootlin.com/blog/) - kernel, BSPs, toolchains
+- [LWN.net](https://lwn.net/) - Linux kernel news
+
+**Courses and books**
+- Nand2Tetris (Coursera) - from logic gates to a compiler and a custom CPU
+- [Pikuma](https://pikuma.com/) - emulators, compilers, physics engines
+- Udemy, Packt, Leanpub
